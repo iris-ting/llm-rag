@@ -1,6 +1,5 @@
 {
-  "faithfulness": NaN,
+  "faithfulness": 0.9091,
   "context_precision": NaN,
-  "context_recall": NaN,
-  "answer_relevancy": NaN
+  "context_recall": 0.9028
 }
