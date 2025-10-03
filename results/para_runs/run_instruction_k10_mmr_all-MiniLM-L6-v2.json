@@ -1,0 +1,17 @@
+{
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embed_dim": 384,
+  "top_k": 10,
+  "strategy": "mmr",
+  "prompt_style": "instruction",
+  "limit": 100,
+  "scores": {
+    "exact_match": 53.0,
+    "f1": 59.95
+  },
+  "timing": {
+    "build_time_s": 15.0,
+    "gen_time_s": 153.25,
+    "avg_time_per_q_s": 1.532
+  }
+}

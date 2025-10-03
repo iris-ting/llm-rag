@@ -1,0 +1,13 @@
+embed_model,embed_dim,top_k,strategy,prompt_style,limit,exact_match,f1,build_time_s,gen_time_s,avg_time_per_q_s,passages_after_dedup
+sentence-transformers/all-MiniLM-L6-v2,384,3,concat,instruction,100,45.0,52.85,10.307,39.351,0.394,3196
+sentence-transformers/all-MiniLM-L6-v2,384,3,mmr,instruction,100,41.0,47.96,9.314,38.124,0.381,3196
+sentence-transformers/all-MiniLM-L6-v2,384,5,concat,instruction,100,48.0,56.13,11.197,77.437,0.774,3196
+sentence-transformers/all-MiniLM-L6-v2,384,5,mmr,instruction,100,44.0,50.72,13.152,71.428,0.714,3196
+sentence-transformers/all-MiniLM-L6-v2,384,10,concat,instruction,100,53.0,60.92,12.837,168.698,1.687,3196
+sentence-transformers/all-MiniLM-L6-v2,384,10,mmr,instruction,100,53.0,59.95,15.0,153.25,1.532,3196
+sentence-transformers/distiluse-base-multilingual-cased-v2,512,3,concat,instruction,100,44.0,50.18,86.963,54.142,0.541,3196
+sentence-transformers/distiluse-base-multilingual-cased-v2,512,3,mmr,instruction,100,41.0,47.72,17.527,73.515,0.735,3196
+sentence-transformers/distiluse-base-multilingual-cased-v2,512,5,concat,instruction,100,44.0,51.37,29.6,102.486,1.025,3196
+sentence-transformers/distiluse-base-multilingual-cased-v2,512,5,mmr,instruction,100,47.0,54.05,24.367,89.631,0.896,3196
+sentence-transformers/distiluse-base-multilingual-cased-v2,512,10,concat,instruction,100,49.0,56.59,27.826,217.686,2.177,3196
+sentence-transformers/distiluse-base-multilingual-cased-v2,512,10,mmr,instruction,100,48.0,55.69,25.689,202.782,2.028,3196

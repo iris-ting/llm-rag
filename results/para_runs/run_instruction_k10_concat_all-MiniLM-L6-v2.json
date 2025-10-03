@@ -1,0 +1,17 @@
+{
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embed_dim": 384,
+  "top_k": 10,
+  "strategy": "concat",
+  "prompt_style": "instruction",
+  "limit": 100,
+  "scores": {
+    "exact_match": 53.0,
+    "f1": 60.92
+  },
+  "timing": {
+    "build_time_s": 12.837,
+    "gen_time_s": 168.698,
+    "avg_time_per_q_s": 1.687
+  }
+}

@@ -1,0 +1,10 @@
+python-dotenv==1.0.1
+datasets==3.0.1
+sentence-transformers==3.0.1
+transformers==4.44.2
+accelerate==0.34.2
+evaluate==0.4.2
+tqdm==4.66.5
+ragas==0.1.21
+langchain==0.1.16
+langchain-community>=0.0.32,<0.1

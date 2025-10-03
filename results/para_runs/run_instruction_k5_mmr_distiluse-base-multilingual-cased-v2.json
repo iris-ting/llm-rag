@@ -1,0 +1,17 @@
+{
+  "embed_model": "sentence-transformers/distiluse-base-multilingual-cased-v2",
+  "embed_dim": 512,
+  "top_k": 5,
+  "strategy": "mmr",
+  "prompt_style": "instruction",
+  "limit": 100,
+  "scores": {
+    "exact_match": 47.0,
+    "f1": 54.05
+  },
+  "timing": {
+    "build_time_s": 24.367,
+    "gen_time_s": 89.631,
+    "avg_time_per_q_s": 0.896
+  }
+}

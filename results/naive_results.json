@@ -1,0 +1,14 @@
+{
+  "top_k": 1,
+  "limit": 100,
+  "scores_by_prompt": {
+    "instruction": {
+      "exact_match": 34.0,
+      "f1": 38.34
+    },
+    "persona_scientist": {
+      "exact_match": 26.0,
+      "f1": 31.59
+    }
+  }
+}

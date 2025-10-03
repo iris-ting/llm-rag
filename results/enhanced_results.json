@@ -1,0 +1,21 @@
+{
+  "enhancements": {
+    "use_hyde": true,
+    "use_reranker": true,
+    "strategy": "concat",
+    "top_k": 5,
+    "pool": 50,
+    "rerank_pool": 50,
+    "embed_model": "sentence-transformers/all-MiniLM-L6-v2"
+  },
+  "limit": 100,
+  "scores": {
+    "exact_match": 46.0,
+    "f1": 53.43
+  },
+  "timing": {
+    "build_time_s": 11.197,
+    "gen_time_s": 142.784,
+    "avg_time_per_q_s": 1.428
+  }
+}
