@@ -2,7 +2,7 @@ from __future__ import annotations
 import os, pandas as pd
 
 IN_CSV = "results/comparison_analysis.csv"
-OUT_MD = "docs/step4_parameter_analysis.md"
+OUT_MD = "docs/phase2_Naive RAG Implementation.md"
 os.makedirs("docs", exist_ok=True)
 
 def md_table(df: pd.DataFrame) -> str:
